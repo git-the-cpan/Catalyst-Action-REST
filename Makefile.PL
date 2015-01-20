@@ -22,7 +22,7 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "Catalyst::Runtime" => "5.80030",
     "Class::Inspector" => "1.13",
-    "LWP::UserAgent" => "2.033",
+    "LWP::UserAgent" => "5.00",
     "MRO::Compat" => "0.10",
     "Module::Pluggable::Object" => 0,
     "Moose" => "1.03",
@@ -34,7 +34,7 @@ my %WriteMakefileArgs = (
     "Test::More" => "0.88",
     "Test::Requires" => 0
   },
-  "VERSION" => "1.17",
+  "VERSION" => "1.18",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -44,7 +44,7 @@ my %WriteMakefileArgs = (
 my %FallbackPrereqs = (
   "Catalyst::Runtime" => "5.80030",
   "Class::Inspector" => "1.13",
-  "LWP::UserAgent" => "2.033",
+  "LWP::UserAgent" => "5.00",
   "MRO::Compat" => "0.10",
   "Module::Pluggable::Object" => 0,
   "Moose" => "1.03",

@@ -28,7 +28,7 @@
          "requires" : {
             "Catalyst::Runtime" : "5.80030",
             "Class::Inspector" : "1.13",
-            "LWP::UserAgent" : "2.033",
+            "LWP::UserAgent" : "5.00",
             "MRO::Compat" : "0.10",
             "Module::Pluggable::Object" : "0",
             "Moose" : "1.03",
@@ -67,6 +67,6 @@
       },
       "x_authority" : "cpan:BOBTFISH"
    },
-   "version" : "1.17"
+   "version" : "1.18"
 }
 
