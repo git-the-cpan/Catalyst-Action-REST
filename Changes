@@ -1,5 +1,12 @@
 Revision history for Catalyst-Action-REST
 
+1.19      2015-02-06 09:40:02-06:00 America/Chicago
+
+ - Make LWP a test dep instead of a hard dep (Fixes GH#3, thanks Alexander
+   Hartmaier for the report!)
+ - Hard dep on JSON::MaybeXS (Fixes RT#101854, thanks Emmanuel Seyman for the
+   report and Karen Etheridge for help tracking down the cause!)
+
 1.18      2015-01-20 12:20:46-06:00 America/Chicago
  - Fix tests on travisci so that Catalyst proper can run on travisci
    (Thanks André Walker!)

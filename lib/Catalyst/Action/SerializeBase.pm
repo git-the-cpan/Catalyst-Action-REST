@@ -1,5 +1,5 @@
 package Catalyst::Action::SerializeBase;
-$Catalyst::Action::SerializeBase::VERSION = '1.18';
+$Catalyst::Action::SerializeBase::VERSION = '1.19';
 use Moose;
 use namespace::autoclean;
 

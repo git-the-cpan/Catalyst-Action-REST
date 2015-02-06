@@ -22,7 +22,7 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "Catalyst::Runtime" => "5.80030",
     "Class::Inspector" => "1.13",
-    "LWP::UserAgent" => "5.00",
+    "JSON::MaybeXS" => 0,
     "MRO::Compat" => "0.10",
     "Module::Pluggable::Object" => 0,
     "Moose" => "1.03",
@@ -31,10 +31,11 @@ my %WriteMakefileArgs = (
     "namespace::autoclean" => 0
   },
   "TEST_REQUIRES" => {
+    "LWP::UserAgent" => "5.00",
     "Test::More" => "0.88",
     "Test::Requires" => 0
   },
-  "VERSION" => "1.18",
+  "VERSION" => "1.19",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -44,6 +45,7 @@ my %WriteMakefileArgs = (
 my %FallbackPrereqs = (
   "Catalyst::Runtime" => "5.80030",
   "Class::Inspector" => "1.13",
+  "JSON::MaybeXS" => 0,
   "LWP::UserAgent" => "5.00",
   "MRO::Compat" => "0.10",
   "Module::Pluggable::Object" => 0,

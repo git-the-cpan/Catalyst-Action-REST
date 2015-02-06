@@ -1,5 +1,5 @@
 package Catalyst::Action::Deserialize::Callback;
-$Catalyst::Action::Deserialize::Callback::VERSION = '1.18';
+$Catalyst::Action::Deserialize::Callback::VERSION = '1.19';
 use Moose;
 use namespace::autoclean;
 use Scalar::Util qw(openhandle);
