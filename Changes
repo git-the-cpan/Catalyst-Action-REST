@@ -1,5 +1,10 @@
 Revision history for Catalyst-Action-REST
 
+1.20      2015-10-29 15:28:27-05:00 America/Chicago
+
+ - Documentation fixes.
+ - Don't clobber some response headers if they are already set.
+
 1.19      2015-02-06 09:40:02-06:00 America/Chicago
 
  - Make LWP a test dep instead of a hard dep (Fixes GH#3, thanks Alexander

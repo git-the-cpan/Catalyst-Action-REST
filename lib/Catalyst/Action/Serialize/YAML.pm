@@ -1,5 +1,5 @@
 package Catalyst::Action::Serialize::YAML;
-$Catalyst::Action::Serialize::YAML::VERSION = '1.19';
+$Catalyst::Action::Serialize::YAML::VERSION = '1.20';
 use Moose;
 use namespace::autoclean;
 

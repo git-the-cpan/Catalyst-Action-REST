@@ -4,13 +4,13 @@
       "Tomas Doran <bobtfish@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.142060",
+   "generated_by" : "Dist::Zilla version 5.041, CPAN::Meta::Converter version 2.150005",
    "license" : [
       "perl_5"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
-      "version" : "2"
+      "version" : 2
    },
    "name" : "Catalyst-Action-REST",
    "prereqs" : {
@@ -62,6 +62,6 @@
       },
       "x_authority" : "cpan:BOBTFISH"
    },
-   "version" : "1.19"
+   "version" : "1.20"
 }
 

@@ -1,5 +1,5 @@
 package Catalyst::Action::REST;
-$Catalyst::Action::REST::VERSION = '1.19';
+$Catalyst::Action::REST::VERSION = '1.20';
 use utf8;
 use Moose;
 use namespace::autoclean;
